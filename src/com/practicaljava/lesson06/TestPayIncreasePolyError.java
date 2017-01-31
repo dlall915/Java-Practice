@@ -1,0 +1,19 @@
+package com.practicaljava.lesson06;
+
+/**
+ * A test created to explore the error "ClassCastException".
+ * @author David Lall
+ *
+ */
+
+public class TestPayIncreasePolyError {
+	public static void main (String[] args) {
+		Person workers[] = new Person[3];
+		workers[0] = new Employee("John");
+		workers[1] = new Contractor("Mary");
+		workers[2] = new ForeignContractor("Boris");
+		for (Person p : workers) {
+			((Payable)p).increasePay(30);
+		}
+	}
+}
