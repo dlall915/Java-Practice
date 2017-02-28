@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hello</title>
+</head>
+<body>
+	<span id="messageGoesHere"></span>
+	<script type="text/javascript">
+	var ws = new WebSocket("ws://localhost:8080/Lesson_28/hello");
+	
+	ws.onmessage = function(event) {
+ 		var mySpan = document.getElementById("messageGoesHere");
+		mySpan.innerHTML=event.data;
+	};
+	</script>
+</body>
+</html>
