@@ -38,8 +38,3 @@ completely new to me.
 - Lesson 30 Introducing JMS and MOM
 - Lesson 31 Introduction to Enterprise JavaBeans
 - Lesson 32 Overview of the Java Persistence API
-- Lesson 33 Working with RESTful Web Services
-- Lesson 34 Java Logging API
-- Lesson 35 Introduction to Unit Testing with JUnit Framework
-- Lesson 36 Build Automation with Gradle
-- Lesson 37 Java Technical Interviews
